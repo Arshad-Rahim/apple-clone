@@ -1,0 +1,856 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* top full bar */
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #F0F0F2;
+}
+
+/* top full bar div class */
+.header {
+    margin: 0px 162px;
+    padding: 0px 22px;
+    width: 980px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header div {
+    margin-right: 12px;
+
+    height: 16px;
+    padding-right: 10px;
+    border-right: 1px solid rgba(0, 0, 0, .8);
+    width: 124px;
+}
+
+.header a {
+    color: rgba(0, 0, 0, .8);
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+/* full nav bar */
+nav {
+    width: 100%;
+    height: 44px;
+    background-color: #F5F5F7;
+}
+
+/* nav bar div container */
+.navbar {
+    width: 980px;
+    height: 44px;
+    padding: 0px 22px;
+    margin: 0px 162px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    text-align: center;
+
+}
+
+
+.apple img {
+    padding-top: 3px;
+    width: 14px;
+    padding-right: 8px;
+}
+
+.search img {
+    width: 25px;
+    height: 44px;
+}
+
+.bag img {
+    width: 14px;
+    height: 44px;
+}
+
+.navbar img:hover {
+    cursor: pointer;
+}
+
+section {
+    width: 100%;
+    height: 5643px;
+    background-color: #F5F5F7;
+
+}
+
+.below-nav {
+
+    padding: 16px 0px;
+    text-align: center;
+
+}
+
+.below-nav p {
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.first-img {
+    width: 100%;
+    height: 245px;
+    background-color: #F5F5F7;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.first-img img {
+    width: 509px;
+    height: 193px;
+}
+
+/* education full container */
+.big-text-container {
+    width: 1111px;
+    height: 221px;
+    margin: auto;
+    display: block;
+}
+
+/* education heading style */
+.big-text {
+    width: 700px;
+    height: 104px;
+    padding-top: 53px;
+    padding-bottom: 64px;
+}
+
+.big-text span {
+    color: #08827c;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.big-text p {
+    margin: 0;
+    color: #6e6e73;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+/* person right text */
+.shopping-help {
+    position: absolute;
+    left: 1045px;
+    top: 510px;
+    width: 190px;
+    height: 35px;
+
+}
+
+.image img {
+    position: absolute;
+    left: 1000px;
+    top: 510px;
+    width: 35px;
+}
+
+.shopping-help p,
+.visit p {
+    margin: 0;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.shopping-help a,
+.visit a {
+    color: #06c;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+/* visit container */
+.visit {
+    width: 180px;
+    height: 35px;
+    position: absolute;
+    left: 1045px;
+    top: 570px;
+
+}
+
+.location img {
+    width: 25px;
+    position: absolute;
+    left: 1008px;
+    top: 574px;
+}
+
+/* product image contain main div */
+.product {
+    margin-top: 30px;
+    width: 100%;
+    height: 95px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    align-items: center;
+    text-align: center;
+}
+
+.product img:hover {
+    cursor: pointer;
+}
+
+.product img {
+    width: 120px;
+    height: 78px;
+}
+
+/* product name div */
+.product-name {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 200px 90px 260px 100px 220px auto auto auto;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+
+
+}
+
+
+
+.name a {
+
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* advantage tool top bar heading div */
+.advantage-tool {
+    width: 987px;
+    height: 33px;
+    margin-left: 119px;
+    margin-right: 250px;
+    padding-bottom: 14px;
+
+}
+
+.advantage-tool h2 {
+    color: rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.advantage-tool span {
+    color: #6e6e73;
+}
+
+/* offer grid main div */
+.multiple-product {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 25px;
+    padding-bottom: 54px;
+}
+
+.product1,
+.product2,
+.product3,
+.product4,
+.product5,
+.product6,
+.product7,
+.prodect8,
+.product9 {
+    width: 400px;
+    height: 500px;
+    border-radius: 14px;
+}
+
+.product1 {
+    background: url("./apple image/combo.jfif");
+    background-size: cover;
+}
+
+.product2 {
+    background: url("./apple image/macbook\ air.jfif");
+    background-size: cover;
+}
+
+.product3 {
+    background: url("./apple image/ipad\ air.jfif");
+    background-size: cover;
+}
+
+.product4 {
+    background: url("./apple image/appslogo.jfif");
+    background-size: cover;
+}
+
+.product5 {
+    background: url("./apple image/big\ hat.jfif");
+    background-size: cover;
+}
+
+.product6 {
+    background: url("./apple image/applecare.jfif");
+    background-size: cover;
+}
+
+.product7 {
+    background: url("./apple image/accessories1.jfif");
+    background-size: cover;
+}
+
+
+
+
+
+.product1 p,
+.product2 p,
+.product3 p {
+    padding-left: 15px;
+    color: rgb(182, 68, 0);
+    font-size: 12px;
+    font-weight: 600;
+
+
+}
+
+.product1 h3,
+.product2 h3,
+.product3 h3,
+.product4 h3,
+.product5 h3,
+.product6 h3 {
+    width: 345px;
+    height: 64px;
+    color: rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 15px;
+    margin-bottom: 0;
+
+}
+
+.product5 h3 {
+    font-size: 26px;
+}
+
+.product4 h3,
+.product5 h3,
+.product6 h3 {
+    padding-top: 25px;
+}
+
+.product2 span,
+.product3 span {
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.product1:hover,
+.product2:hover,
+.product3:hover,
+.product4:hover,
+.product5:hover,
+.product6:hover,
+.accessories1:hover,
+.accessories2:hover,
+.endless-potential1:hover,
+.customize:hover {
+    transform: scale(1.01);
+    transition: all 0.4s ease-in-out;
+}
+
+/* heading main div max out your credits */
+.more-exclusive-para {
+    width: 980px;
+    height: 33px;
+    padding-bottom: 14px;
+    margin-left: 119px;
+    margin-right: 250px;
+}
+
+.more-exclusive-para p {
+    color: color rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.more-exclusive-para span {
+    color: #6e6e73;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* accessories 101 heading par */
+.accessories {
+    width: 980px;
+    height: 33px;
+    padding-bottom: 14px;
+    margin-left: 119px;
+    margin-right: 250px;
+}
+
+.accessories h3,
+.endless-potential h3 {
+
+    color: rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.endless-potential h3 {
+    margin-top: 0;
+}
+
+.accessories span,
+.endless-potential span {
+    color: #6e6e73;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* main accesories container */
+.accessories-container {
+    padding-top: 10px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-bottom: 54px;
+}
+
+.accessories1,
+.endless-potential1 {
+    width: 400px;
+    height: 500px;
+    background-image: url("apple image/accessories1.jfif");
+    background-size: cover;
+    margin-left: 20px;
+    border-radius: 14px;
+
+}
+
+.endless-potential1 {
+    background-image: url("apple image/study-women.jfif");
+}
+
+.endless-potential4 {
+    background: url("apple image/15pro.jfif");
+    background-size: cover;
+    border-radius: 14px;
+}
+
+.accessories1 h2 {
+    padding-left: 20px;
+    color: #1d1d1f;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.accessories1 p {
+    padding-left: 20px;
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.accessories2 {
+    background-color: white;
+    margin-left: 20px;
+    width: 253px;
+    height: 440px;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.accessories2 img {
+    margin-top: 50px;
+    margin-left: 12px;
+    width: 230px;
+
+    margin-bottom: 50px;
+}
+
+.accessories2 p {
+    color: rgb(182, 68, 0);
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 5px;
+
+}
+
+.accessories2 h2 {
+    margin: 0;
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.accessories2 h5 {
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.endless-potential {
+    transition: all 0.4s ease-in-out;
+    width: 980px;
+    height: 33px;
+    padding-bottom: 14px;
+    margin-left: 119px;
+    margin-right: 250px;
+
+}
+
+.endless-potential1-div {
+    width: 340px;
+    height: 144px;
+    padding: 30px;
+
+}
+
+.endless-potential1 p {
+    color: #f5f5f7;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.endless-potential1 h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.endless-potential1 h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.potential1img {
+    background: url("apple image/lapladies.jfif");
+    background-size: cover;
+}
+
+.potential2 p {
+    color: #6e6e73;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.potential2 h2 {
+    color: #1d1d1f;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.potential2 h3 {
+    color: #1d1d1f;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.potential2-img {
+    background: url("apple image/potential3.jfif");
+    background-size: cover;
+}
+
+/* appstore computer smile truck message contain full container */
+.apple-store-difference {
+    width: 100%;
+    height: 240px;
+    padding-top: 10px;
+    padding-bottom: 54px;
+    display: flex;
+
+}
+
+/* apple store each element single container having computer smile truck message */
+.customize {
+    margin-left: 20px;
+    width: 253px;
+    height: 210px;
+    padding: 30px;
+    padding-bottom: 0px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.laptop img {
+    width: 53px;
+    height: 56px;
+}
+
+.laptop h4 {
+    color: #68cc45;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.laptop h5 {
+    color: #027aff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.laptop span {
+    color: #1d1d1f;
+
+}
+
+.smily h4 {
+    color: #1d1d1f;
+    ;
+
+}
+
+.smily span {
+    color: #ac39ff;
+}
+
+.iphone15 {
+    background: url("apple image/15.jfif");
+    background-size: cover;
+}
+
+.watch {
+    background: url("apple image/watch.jfif");
+    background-size: cover;
+}
+
+.apple-experience-img1 {
+    width: 480px;
+    height: 500px;
+    background: url("apple image/appleexperienceimg1.jfif");
+    background-size: cover;
+    align-items: center;
+}
+
+.apple-experience-img2 {
+    width: 480px;
+    height: 500px;
+    background: url("apple image/lap-with-phone.jfif");
+    background-size: cover;
+    align-items: center;
+}
+
+/* apple experience container full and also refer some container below */
+.apple-experience {
+    width: 100%;
+    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-music {
+    background: url("apple image/music.jfif");
+    background-size: cover;
+
+}
+
+.img-appstore {
+    background: url("apple image/appstore.jfif");
+    background-size: cover;
+}
+
+.img-podcast {
+    background: url("apple image/podcast.jfif");
+    background-size: cover;
+}
+
+/* quick heading below container which contain the 4 buttons */
+.footer-buttons-container {
+    width: 980px;
+    height: 48px;
+    display: flex;
+    padding-bottom: 27px;
+    margin-left: 109px;
+}
+
+/* footer the area containing from quick link heading to bottom the main container */
+footer {
+    width: 100%;
+    height: 1180px;
+    background-color: #F5F5F7;
+}
+
+.button1 {
+    width: 113px;
+    height: 38px;
+    color: #1d1d1f;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #1d1d1f;
+    border-radius: 18px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.button2 {
+    width: 126px;
+}
+
+.button3 {
+    width: 82px;
+}
+
+.button4 {
+    width: 103px;
+}
+
+.button1:hover {
+    color: white;
+    background-color: #1d1d1f;
+    transition-duration: 0.2s;
+}
+
+/* the container in the footer that contain the 
+footer paragraph the next apple emplum and text and the link below it the 
+all the remaining conetnt in the page full container */
+.container {
+    width: 980px;
+    height: 1050px;
+    padding: 0px 22px;
+    margin: 0px 162px;
+}
+
+.container p {
+    color: #0000008f;
+    font-size: 12px;
+    font-weight: 400;
+}
+/* the container that contain all the paragraph int the footer */
+.container-para {
+    width: 980px;
+    height: 502px;
+    border-bottom: 1px solid #00000029;
+}
+/* apple logo and text apple store online containing container */
+.apple-logo-footer {
+    width: 980px;
+    height: 22px;
+    padding: 17px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.apple-logo-footer img {
+    width: 34px;
+    height: 38px;
+    opacity: 0.5;
+}
+.apple-logo-footer img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.apple-logo-footer p {
+    color: #000000b8;
+    font-size: 12px;
+    font-weight: 400;
+}
+/* the container that containing all the links */
+.list {
+    width: 196px;
+    height: 337px;
+
+}
+
+.list li {
+    list-style: none;
+
+
+}
+/* the container that containing all the links */
+.list-container {
+    display: flex;
+    width: 980px;
+    height: 337px;
+}
+
+.list h3 {
+    color: #000000e0;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: 9.6px;
+    padding-top: 15px;
+}
+
+.list a {
+
+    color: #000000b8;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+/* the footer that contain more way to shape container */
+.secount-last {
+
+    width: 980px;
+    height: 16px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #00000029;
+}
+
+.secount-last p {
+    color: #0000008f;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.secount-last a {
+    font-size: 12px;
+    font-weight: 400;
+}
+/* the last container containing copy right text */
+.last {
+    display: flex;
+    align-items: flex-end;
+    height: 40px;
+}
+
+.last span {
+    font-size: 12px;
+    margin-inline: .6rem;
+    margin-bottom: .4rem;
+}
+
+.vr {
+    width: 2px;
+    height: 10px;
+    border-right: 1px solid rgba(66, 66, 66, 0.822);
+    margin-bottom: .4rem;
+}
